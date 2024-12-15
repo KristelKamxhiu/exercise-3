@@ -1,0 +1,13 @@
+body{
+    background-image:url(my\ 2\ image.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imazh{
+    width: 50%;
+    height: 100px;
+    /* object fit perdoret per te vendosur nje imazh tjetr mbi imazhin e pare */
+    object-fit: cover;
+    /* border perdoret per ta vendosur foton ne kornize, kurse border-top per ta kornizuar vtm pjesen e siperme */
+    border-top: 5px dashed red;   
+}
